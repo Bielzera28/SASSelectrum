@@ -17,13 +17,13 @@ function Project() {
           <div className="header-top-container">
             <div className="store-info-container">
               <span>
-                <i className="fas fa-phone">(61) 99999-0000</i>
+                <i className="fas fa-phone"></i>(61) 99999-0000
               </span>
               <span>
-                <i className="fas fa-envelope">electrum@email.com</i>
+                <i className="fas fa-envelope"></i>electrum@email.com
               </span>
               <span>
-                <i className="fas fa-map-marker-alt">Rua Teste, 1234</i>
+                <i className="fas fa-map-marker-alt"></i>Rua Teste, 1234
               </span>
             </div>
             <div className="header-user-top-menu">
@@ -38,10 +38,10 @@ function Project() {
         </div>
         <div className="main-header">
           <div className="main-header-container">
-            <a href="/">
+            <a href="/" id="brand">
               Electrum <i className="fas fa-bolt"></i>
             </a>
-            <form action="" id="search*form">
+            <form action="" id="search-form">
               <input type="text" id="search" placeholder="Busque aqui"></input>
               <input
                 type="submit"
@@ -98,28 +98,28 @@ function Project() {
             </a>
           </div>
         </div>
-      </div>
-      <div className="banner" id="banner-2">
-        <div className="banner-cover"></div>
-        <div className="banner-content">
-          <h2>Lançamento de Acessórios</h2>
-          <a href="/">
-            Ver Mais <i className="fas fa-arrow-circle-right"></i>
-          </a>
+        <div className="banner" id="banner-2">
+          <div className="banner-cover"></div>
+          <div className="banner-content">
+            <h2>Lançamento de Acessórios</h2>
+            <a href="/">
+              Ver Mais <i className="fas fa-arrow-circle-right"></i>
+            </a>
+          </div>
         </div>
-      </div>
-      <div className="banner" id="banner-3">
-        <div className="banner-cover"></div>
-        <div className="banner-content">
-          <h2>Câmeras Potentes</h2>
-          <a href="/">
-            Ver Mais <i className="fas fa-arrow-circle-right"></i>
-          </a>
+        <div className="banner" id="banner-3">
+          <div className="banner-cover"></div>
+          <div className="banner-content">
+            <h2>Câmeras Potentes</h2>
+            <a href="/">
+              Ver Mais <i className="fas fa-arrow-circle-right"></i>
+            </a>
+          </div>
         </div>
       </div>
       <div className="products-grid">
         <h2>Produtos Novos</h2>
-        <div className="product-grid-container">
+        <div className="products-grid-container">
           <div className="products-grid-card">
             <span className="label new">New</span>
             <img src={prod1} alt="Produto 1" />
@@ -213,7 +213,7 @@ function Project() {
       </div>
       <div className="products-grid">
         <h2>Mais Vendidos</h2>
-        <div className="product-grid-container">
+        <div className="products-grid-container">
           <div className="products-grid-card">
             <span className="label hot">Hot</span>
             <img src={prod5} alt="Produto 5" />
@@ -393,15 +393,14 @@ function Project() {
           </div>
         </div>
         <div className="footer-bottom">
-            <div className="footer-bottom-payments">
-                <i className="fab fa-cc-mastercard"></i>
-                <i className="fab fa-cc-visa"></i>
-                <i className="fab fa-cc-diners-club"></i>
-                <i className="fab fa-cc-amazon-pay"></i>
-                <i className="fab fa-cc-apple-pay"></i>
-            </div>
-            <p>Copyright &copy; 2021 - Electrum </p>
-
+          <div className="footer-bottom-payments">
+            <i className="fab fa-cc-mastercard"></i>
+            <i className="fab fa-cc-visa"></i>
+            <i className="fab fa-cc-diners-club"></i>
+            <i className="fab fa-cc-amazon-pay"></i>
+            <i className="fab fa-cc-apple-pay"></i>
+          </div>
+          <p>Copyright &copy; 2021 - Electrum </p>
         </div>
       </footer>
     </div>
