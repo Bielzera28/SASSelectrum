@@ -205,7 +205,7 @@ function Project() {
           <h2 className="deal-container-content-title">
             Promoção de Fone Gamer
           </h2>
-          <p className="deal-container-content-subtilte">
+          <p className="deal-container-content-subtitle">
             Toda a linha gamer com 50% de desconto
           </p>
           <button className="btn">Comprar Agora</button>
@@ -276,7 +276,7 @@ function Project() {
           </div>
         </div>
       </div>
-      <div className="newslatter-container">
+      <div className="newsletter-container">
         <h2>
           Assine a nossa <span>Newsletter</span>
         </h2>
@@ -289,6 +289,13 @@ function Project() {
           />
           <input type="submit" className="btn btn-half" value="Assinar" />
         </form>
+        <div className="social-media">
+          <i className="fab fa-facebook-f"></i>
+          <i className="fab fa-instagram"></i>
+          <i className="fab fa-twitter"></i>
+          <i className="fab fa-pinterest-p"></i>
+
+        </div>
       </div>
       <footer className="footer">
         <div className="footer-top">

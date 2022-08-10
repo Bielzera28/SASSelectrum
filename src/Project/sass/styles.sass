@@ -10,6 +10,10 @@
         background-color: $secondary-bg-color
         color: $light-color
 
+        @include mobile
+          display: none
+    
+
         &-container 
             @include center-content
             padding: .8rem 0
@@ -29,6 +33,10 @@
         @include center-content
         padding: 1.3rem 0
 
+        @include mobile
+          flex-direction: column
+          align-items: center
+
         a, span, i
             color: $light-color
 
@@ -46,6 +54,10 @@
             justify-content: center
             width: 45%
 
+            @include mobile
+              width: 100%
+              margin: 2rem 0
+
             input
                 height: 40px
 
@@ -60,6 +72,9 @@
             .wishlist-container, .header-cart-container
                 @include header-icon
 
+                @include mobile
+                  margin: 1rem
+
 .header-bottom
     background-color: $light-color
     border-bottom: 2px solid $section-bg-color
@@ -69,6 +84,9 @@
         @include center-content
         justify-content: left
         padding: 1rem 0
+
+        @include mobile
+          display: none
 
         li
             margin-right: 1.3rem
@@ -84,6 +102,11 @@
 .banners
     @include center-content
     padding: 3rem 0
+
+    @include mobile
+      flex-direction: column
+      align-items: center
+
     
     .banner
         width: 30%
@@ -93,6 +116,10 @@
         transition: .4s
         @include center-bg
         background-size: 100%
+
+        @include mobile
+          width: 90%
+          margin: 1rem
 
         &:hover
             background-size: 120%
@@ -145,10 +172,17 @@
         font-size: 2rem
         text-transform: uppercase
 
+        @include mobile
+          text-align: center
+
     &-container 
         display: flex
         justify-content: space-between
         padding: 2rem 0
+
+        @include mobile
+          flex-direction: column
+          align-items: center
     
     &-card 
         border: 1px solid $gray-text-color
@@ -160,6 +194,10 @@
         flex-direction: column
         justify-content: center
         align-items: center
+
+        @include mobile
+          width: 90%
+          margin: 1rem
 
         &:hover 
             border-color: $primary-color
@@ -196,6 +234,191 @@
             color: $primary-color
             font-size: 1.5rem
             font-weight: bold
+
+.deal-container
+    background-image: url("../images/deal_headset.png")
+    background-repeat: no-repeat
+    background-position-x: 95%
+    background-position-y: 2rem
+    background-size: 25%
+    background-color: $section-bg-color
+    height: 550px
+    padding: 2rem
+
+    @include mobile
+      background-size: 70%
+      background-position-y: 130%
+      background-position-x: 120%
+      height: 700px
+
+    &-content 
+        height: 100%
+        flex-direction: column
+        align-items: center
+        @include center-content
+        justify-content: center
+
+        @include mobile
+          text-align: center
+
+        &-timer 
+            display: flex
+            margin-bottom: 2rem
+
+            @include mobile
+              flex-wrap: wrap
+              align-self: center
+              justify-content: center
+        
+        .deal-container-timer
+            width: 100px
+            height: 100px
+            border-radius: 50%
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            background-color: $primary-color
+            color: $light-color
+            margin: 0 1rem
+
+            @include mobile
+              margin-bottom: 1.5rem
+
+            &-time 
+                font-weight: bold
+                font-size: 1.5rem
+        
+        &-title, &-subtitle 
+            margin-bottom: 1rem
+            text-transform: uppercase
+            font-size: 2rem
+
+        &-subtitle
+            margin-bottom: 2rem
+            font-size: 1.5rem
+
+.newsletter-container
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding: 3rem
+    border-top: 2px solid $section-bg-color
+
+    @include mobile
+      text-align: center
+
+
+    h2
+        font-size: 2rem
+        color: $dark-color
+        margin-bottom: 2rem
+
+        span
+            font-size: 2rem
+            font-weight: bold
+            text-transform: uppercase
+    
+    form
+        display: flex
+        margin-bottom: 3rem
+
+        @include mobile
+          width: 100%
+
+        input[type="email"]
+            border: 1px solid $section-bg-color
+            @include rounded-input
+
+            @include mobile
+              width: 100%
+
+    .social-media
+        
+        i
+            padding: 12px
+            margin: 5px
+            border: 1px solid $section-bg-color
+            cursor: pointer
+            color: $dark-color
+            transition: .4s
+
+            &:hover
+                color: $primary-color
+                background-color: $section-bg-color
+
+.footer
+    background-color: $bg-color
+    padding: 3rem 0
+
+    @include mobile
+      padding: 3rem
+
+    a,p
+        color: $gray-text-color
+
+    li,p
+        margin-bottom: 1rem
+
+        a
+            &:hover
+                color: $primary-color
+    
+    i
+        margin-right: .3rem
+
+    h3
+        color: $light-color
+        text-transform: uppercase
+        font-size: 1.75rem
+        margin-bottom: 1.5rem
+    
+    &-top 
+        @include center-content
+        padding-bottom: 3rem
+
+        @include mobile
+          flex-direction: column
+
+        &-about, &-categories, &-information, &-menu 
+            max-width: 25%
+
+            @include mobile
+              max-width: 100%
+              margin-bottom: 1rem
+              text-align: center
+
+    
+    &-bottom
+        @include center-content
+        flex-direction: column
+        justify-content: center
+        align-items: center
+
+        &-payments 
+            margin-bottom: 2rem
+
+            i
+                color: $dark-color
+                cursor: pointer
+                font-size: 3rem
+                margin: 5px
+                transition: .4s
+
+                &:hover 
+                    color: $primary-color
+
+                
+
+
+            
+        
+        
+
+
+    
+        
 
         
 
