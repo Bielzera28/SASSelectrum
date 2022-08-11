@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/SASSelectrum/static/css/main.c4dee80f.css",
+    "main.js": "/SASSelectrum/static/js/main.dc209bb9.js",
+    "static/js/787.5713be04.chunk.js": "/SASSelectrum/static/js/787.5713be04.chunk.js",
+    "static/media/banner-2.jpg": "/SASSelectrum/static/media/banner-2.336cc9fc2190f18a33e7.jpg",
+    "static/media/banner-1.jpg": "/SASSelectrum/static/media/banner-1.0d95e104f3e6a0cb3ee8.jpg",
+    "static/media/banner-3.jpg": "/SASSelectrum/static/media/banner-3.4e7304d9718cfc1583cf.jpg",
+    "static/media/deal_headset.png": "/SASSelectrum/static/media/deal_headset.4233ff3edc55eb398496.png",
+    "static/media/prod-3.jpg": "/SASSelectrum/static/media/prod-3.a16867115d51f4e617e5.jpg",
+    "static/media/prod-1.jpg": "/SASSelectrum/static/media/prod-1.50492ec8f9426bd90cef.jpg",
+    "static/media/prod-4.jpg": "/SASSelectrum/static/media/prod-4.c5b31b63e60b657da2b8.jpg",
+    "static/media/prod-7.jpg": "/SASSelectrum/static/media/prod-7.8936ccca0665f18ab608.jpg",
+    "static/media/prod-6.jpg": "/SASSelectrum/static/media/prod-6.f3f5e269a3f76496f3b7.jpg",
+    "static/media/prod-2.jpg": "/SASSelectrum/static/media/prod-2.08cd9799d02d9b79da93.jpg",
+    "static/media/prod-8.jpg": "/SASSelectrum/static/media/prod-8.0fcb6034a5995f1d8173.jpg",
+    "static/media/prod-5.jpg": "/SASSelectrum/static/media/prod-5.4102bcb3252b32eede6b.jpg",
+    "index.html": "/SASSelectrum/index.html",
+    "main.c4dee80f.css.map": "/SASSelectrum/static/css/main.c4dee80f.css.map",
+    "main.dc209bb9.js.map": "/SASSelectrum/static/js/main.dc209bb9.js.map",
+    "787.5713be04.chunk.js.map": "/SASSelectrum/static/js/787.5713be04.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4dee80f.css",
+    "static/js/main.dc209bb9.js"
+  ]
+}
